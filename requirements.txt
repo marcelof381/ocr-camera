@@ -20,6 +20,9 @@ numpy
 # Biblioteca que cria a interface gráfica no navegador.
 streamlit
 
+# Motor de OCR principal (Habilitado para melhor acentuação em Português)
+easyocr
+
 # Motor de OCR principal do projeto (leve, roda bem em CPU).
 rapidocr-onnxruntime
 
@@ -30,4 +33,3 @@ rapidocr-onnxruntime
 # instalado também, sem problema — o código escolhe sozinho
 # qual usar).
 # --------------------------------------------------------------
-# easyocr
