@@ -1,0 +1,33 @@
+# ============================================================
+# requirements.txt
+# ============================================================
+# Este arquivo lista todas as bibliotecas (pacotes) que o
+# projeto precisa para funcionar. Com o ambiente virtual
+# ativado, instale tudo de uma vez com:
+#
+#     pip install -r requirements.txt
+#
+# ============================================================
+
+# Biblioteca de visão computacional: captura da webcam,
+# filtros, desenho de caixas, conversão de cores etc.
+opencv-python
+
+# Biblioteca de matemática/matrizes, usada internamente pelo
+# OpenCV e também pelas nossas funções de pré-processamento.
+numpy
+
+# Biblioteca que cria a interface gráfica no navegador.
+streamlit
+
+# Motor de OCR principal do projeto (leve, roda bem em CPU).
+rapidocr-onnxruntime
+
+# --------------------------------------------------------------
+# ALTERNATIVA (opcional): caso o RapidOCR dê algum problema na
+# sua máquina, você pode instalar o EasyOCR no lugar dele.
+# Basta remover o "#" da linha abaixo (e pode deixar o RapidOCR
+# instalado também, sem problema — o código escolhe sozinho
+# qual usar).
+# --------------------------------------------------------------
+# easyocr
